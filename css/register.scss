@@ -1,0 +1,102 @@
+main {
+  .register-form {
+    float: left;
+    width: 378px;
+    border: 1px solid #d2d2ce;
+    background: #f8f8f5;
+    padding: 20px 10px;
+    margin-top: 20px;
+    h2 {
+      margin: 0 12px 18px 12px;
+      padding-bottom: 15px;
+      border-bottom: 1px solid #d2d2ce;
+      text-align: left;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    dl {
+      padding: 7px 12px 7px 0;
+      dt {
+        float: left;
+        width: 90px;
+        height: 38px;
+        color: #363636;
+        text-align: right;
+        font-size: 14px;
+        line-height: 38px;
+      }
+      dd {
+        input {
+          padding: 0 5px;
+          width: 264px;
+          height: 38px;
+          color: #666;
+          font-size: 12px;
+          line-height: 38px;
+          float: left;
+          border: 1px solid #cccccc;
+        }
+
+        input:focus {
+          border-color: orange;
+          background: #ffffe8;
+        }
+        #code-input {
+          width: 165px;
+        }
+        #code {
+          display: inline-block;
+          width: 90px;
+          height: 40px;
+          text-align: center;
+          line-height: 40px;
+          font-size: 18px;
+          margin-left: 5px;
+          background-color: #ffffe8;
+          cursor: pointer;
+        }
+      }
+    }
+    .message {
+      height: auto;
+      margin-left: 95px;
+      color: #ff0000;
+    }
+
+    .clause {
+      display: flex;
+      align-items: center;
+      margin-left: 88px;
+      padding: 8px 0 13px 0;
+      width: 290px;
+      height: 14px;
+      line-height: 14px;
+      #accept {
+        margin-right: 3px;
+      }
+    }
+
+    #submit {
+      display: block;
+      margin-right: 0;
+      margin-left: 10px;
+      width: 355px;
+      height: 45px;
+      line-height: 45px;
+      text-align: center;
+      border: 0;
+      background: #bb0e30;
+      color: #fff;
+      font-weight: bold;
+      font-size: 16px;
+    }
+  }
+
+  .register-ads {
+    margin-top: 20px;
+    width: 790px;
+    height: 480px;
+    background: url(img/register_ads.jpg) no-repeat;
+    float: right;
+  }
+}

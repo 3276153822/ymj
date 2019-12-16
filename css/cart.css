@@ -1,0 +1,149 @@
+.header {
+  border-bottom: solid 2px #7e0001;
+  margin-bottom: 20px;
+}
+main {
+  background-color: #fff;
+}
+footer {
+  margin-bottom: 70px !important;
+}
+.header-right {
+  width: 479px;
+  height: 39px;
+  margin: 30px 0;
+  background: url(img/cart_step.png) no-repeat;
+  overflow: hidden;
+}
+.cart-info {
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+  bottom: 0;
+  /* left: 50%;
+  margin-left: -50%; */
+  background: #eee;
+  box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.2);
+}
+.bottom-box {
+  padding: 10px 0;
+  width: 100%;
+  height: 50px;
+}
+.buy {
+  display: block;
+  float: right;
+  width: 210px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #ffffff;
+  background: url(img/cart_icon.png) 0 0 no-repeat;
+  font-size: 22px;
+  font-family: microsoft yahei;
+}
+.total_price {
+  float: right;
+  width: auto;
+  border: 0;
+  font-size: 12px;
+  cursor: default;
+  margin-right: 10px;
+  height: 50px;
+  color: #fff;
+  color: #666;
+  text-align: center;
+  font: normal 14px/40px \5b8b\4f53;
+  line-height: 50px;
+}
+.good-num {
+  font: bold 14px Arial;
+  color: #d63939;
+}
+.total_price i {
+  color: #d63939;
+  font-size: 14px;
+}
+.total-price {
+  color: #d63939;
+  font-size: 24px;
+  font-weight: 700;
+}
+.cart-order {
+  border: 5px solid #e7e7e7;
+}
+.block-box {
+  display: flex;
+  flex-shrink: 1;
+}
+.box-title {
+  background-color: #f1eeeb;
+  height: 34px;
+}
+.check-box {
+  width: 76px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.g-name {
+  flex: 1;
+  line-height: 34px;
+  display: flex;
+  justify-content: center;
+}
+.g-price,
+.g-num,
+.g-delete {
+  text-align: center;
+  flex: none;
+  width: 124px;
+  line-height: 34px;
+}
+.g-name img {
+  padding: 10px;
+  width: 60px;
+  height: 98px;
+  border: 0;
+}
+.name-content {
+  flex: 1;
+  margin-left: 20px;
+}
+.g-list .name-content {
+  padding: 20px 0 20px 10px;
+  color: #666;
+  text-align: left;
+  font: normal normal 12px/24px Arial;
+}
+.name-content a {
+  color: #000000;
+}
+.name-content a:hover {
+  text-decoration: underline;
+}
+.g-list .g-price,
+.g-list .g-num {
+  justify-content: center;
+  color: #333;
+  font: normal bold 16px/32px arial;
+  display: flex;
+  align-items: center;
+}
+.g-list .g-delete {
+  line-height: 118px;
+  height: 118px;
+}
+.g-list .block-box {
+  cursor: pointer;
+  border-top: 1px solid #cccccc;
+}
+.g-list .block-box:hover {
+  background-color: rgb(250, 250, 250);
+}
+.all {
+  height: 70px;
+  line-height: 70px;
+  border-top: 1px dotted #9e9694;
+  background-color: #f1eeeb;
+}
